@@ -103,6 +103,7 @@ at_risk_breakdown = pd.DataFrame([
 # INITIALIZE DASH APP
 # =============================================================================
 app = Dash(__name__)
+server = app.server  # ADDED TO HOST ON RENDER
 app.title = "Traild Customer Onboarding Analysis"
 
 # =============================================================================
